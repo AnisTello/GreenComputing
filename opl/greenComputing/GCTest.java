@@ -8,6 +8,9 @@
  */
 package opl.greenComputing;
 
+import java.lang.management.ManagementFactory;
+import java.lang.management.RuntimeMXBean;
+
 class GCTest {
 	static MyList objList = null;
 	static int wait = 500; // milliseconds
@@ -25,6 +28,7 @@ class GCTest {
 		m.setDaemon(true);
 		m.start();
 		new GC().start();
+		System.out.println(ManagementFactory.getRuntimeMXBean().getName().split("@")[0]);
 		myTest();
 	}
 
@@ -41,7 +45,6 @@ class GCTest {
 			for (int m = 0; m < testSteps; m++) {
 				mySleep(wait);
 				objList.removeTail();
-				// objList.removeHead();
 			}
 		}
 	}
@@ -107,25 +110,15 @@ class GCTest {
 			}
 		}
 
-		void removeHead() {
-			if (head != null) {
-				if (head.prev == null) {
-					tail = null;
-					head = null;
-				} else {
-					head = head.prev;
-					head.next = null;
-				}
-				count--;
-			}
-		}
 	}
 
 	static class Monitor extends Thread {
 		public void run() {
+			System.out.println(ManagementFactory.getRuntimeMXBean().getName().split("@")[0]);
+
 			Runtime rt = Runtime.getRuntime();
-			System.out.println("Time     Free           Dead");
-			System.out.println("sec.    Mem. Per.        Obj.");
+//			System.out.println("Time     Free           Dead");
+//			System.out.println("sec.    Mem. Per.        Obj.");
 			long dt0 = System.currentTimeMillis() / 1000;
 			while (true) {
 				long tm = rt.totalMemory() / 1024;
@@ -134,17 +127,25 @@ class GCTest {
 				long dt = System.currentTimeMillis() / 1000 - dt0;
 				long to = MyObject.getCount() * objSize;
 				long ao = MyList.getCount() * objSize;
-				System.out.println(dt + "         " + ratio + "%" + "             " + (to - ao));
+//				System.out.println(dt + "         " + ratio + "%" + "             " + (to - ao));
 				mySleep(wait);
 			}
 		}
 	}
 
 	static class GC extends Thread {
+		public long getThreadPID() {
+			RuntimeMXBean runtimeBean = ManagementFactory.getRuntimeMXBean();
+			String jvmName = runtimeBean.getName();
+			long pid = Long.valueOf(jvmName.split("@")[0]);
+			return pid;
+		}
+
 		public void run() {
+			System.out.println(getThreadPID());
 			while (true) {
 				try {
-					GC.sleep(60000);
+					GC.sleep(15000);
 					System.gc();
 				} catch (InterruptedException e) {
 					System.out.println("Interreupted...");
