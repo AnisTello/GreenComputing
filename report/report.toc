@@ -1,0 +1,33 @@
+\contentsline {chapter}{Introduction}{4}{chapter*.1}
+\contentsline {chapter}{\numberline {1}Technical work}{5}{chapter.1}
+\contentsline {section}{\numberline {1.1}Goal}{5}{section.1.1}
+\contentsline {section}{\numberline {1.2}Overview}{5}{section.1.2}
+\contentsline {section}{\numberline {1.3}Architecture \& Design}{6}{section.1.3}
+\contentsline {section}{\numberline {1.4}Algorithm}{6}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}Java to Alloy}{6}{subsection.1.4.1}
+\contentsline {subsubsection}{Generating Alloy source code}{6}{section*.2}
+\contentsline {paragraph}{Base model}{6}{section*.3}
+\contentsline {paragraph}{Types}{6}{section*.4}
+\contentsline {paragraph}{Objects}{6}{section*.5}
+\contentsline {paragraph}{Methods, constructors \& calls}{6}{section*.6}
+\contentsline {paragraph}{Constraints}{7}{section*.7}
+\contentsline {paragraph}{Arguments}{8}{section*.8}
+\contentsline {paragraph}{Generating Alloy Code}{8}{section*.9}
+\contentsline {subsection}{\numberline {1.4.2}Alloy to Java}{10}{subsection.1.4.2}
+\contentsline {subsubsection}{Generating Java unit tests}{10}{section*.10}
+\contentsline {paragraph}{Translate Alloy signatures to Java classes}{10}{section*.11}
+\contentsline {paragraph}{Modelizing Alloy instances in Java}{10}{section*.13}
+\contentsline {paragraph}{Generating tests}{10}{section*.14}
+\contentsline {section}{\numberline {1.5}Implementation}{12}{section.1.5}
+\contentsline {subsubsection}{Spoon}{12}{section*.15}
+\contentsline {subsubsection}{Alloy}{12}{section*.16}
+\contentsline {subsubsection}{Alloy Analyzer}{12}{section*.17}
+\contentsline {subsubsection}{CodeModel}{13}{section*.18}
+\contentsline {section}{\numberline {1.6}Usage}{13}{section.1.6}
+\contentsline {chapter}{\numberline {2}Evaluation}{14}{chapter.2}
+\contentsline {section}{\numberline {2.1}Performance}{14}{section.2.1}
+\contentsline {section}{\numberline {2.2}Ease of use}{14}{section.2.2}
+\contentsline {section}{\numberline {2.3}Validation}{14}{section.2.3}
+\contentsline {section}{\numberline {2.4}Limitations}{16}{section.2.4}
+\contentsline {chapter}{Conclusion}{17}{chapter*.19}
+\contentsline {chapter}{R\IeC {\'e}f\IeC {\'e}rences}{18}{chapter*.20}

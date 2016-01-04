@@ -1,0 +1,27 @@
+\section{Implementation}
+\label{sec:Implementation}
+In order to realise our project we have used four different techonologies: Spoon, Alloy, Alloy Analyzer and CodeModel.\\
+The main parts of our project is generating Alloy source code from a given Java program, then generating Alloy instances. Thereafter modelizing these instances in Java to, finally, convert these modelized instances to Java unit tests.
+
+\subsubsection{Spoon}
+\label{subsec:impl}
+In order to analyze and transform source code, we needed an efficient and powerful library.
+We have chosen Spoon, a high-quality open-source library created and maintained by INRIA
+(French Institute for Research in Computer Science and Automation (French: Institut national
+de recherche en informatique et en automatique)). Providing a complete and fine-grained
+JAVA metamodel, Spoon enables us to perform effortless treatments in differents parts of code.
+These treatments are performed by processors, which are able to browse, modify, or even add
+any program element (class, method, field, statements, expressions...).\cite{spoon-gforge}\cite{spoon-hal}
+Spoon can also be used on validation purpose, to ensure that your programs respect some
+programming conventions or guidelines, or for program transformation, by using a pure-JAVA
+template engine.\cite{spoon-javasource}
+\subsubsection{Alloy}
+Alloy is a language for describing structures and a tool for exploring them. It has been used in a wide range of applications from finding holes in security mechanisms to designing telephone switching networks.
+An Alloy model is a collection of constraints that describes (implicitly) a set of structures, for example: all the possible security configurations of a web application, or all the possible topologies of a switching network.\cite{alloy}
+
+\subsubsection{Alloy Analyzer}
+Alloy Analyzer, is a solver that takes the constraints of a model and finds structures that satisfy them. It can be used both to explore the model by generating sample structures, and to check properties of the model by generating counterexamples.\cite{alloy}
+
+\subsubsection{CodeModel}
+CodeModel is a Java library for code generators; it provides a way to generate Java programs in a way much nicer than PrintStream.println().
+With CodeModel, we can build the java source code by first building AST (Abstract syntax tree)\cite{ast}, then writing it out as text files that is Java source files.\cite{codeModel}

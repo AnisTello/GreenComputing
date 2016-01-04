@@ -109,7 +109,6 @@ class GCTest {
 				count--;
 			}
 		}
-
 	}
 
 	static class Monitor extends Thread {

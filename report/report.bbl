@@ -1,0 +1,46 @@
+\begin{thebibliography}{1}
+
+\bibitem{JUnitMeRapport}
+Valentin Lefils and Quentin Marrecau.
+\newblock Génération de tests junit avec alloy.
+\newblock
+  \url{http://static.monperrus.net/iagl/2014/rendu3-alloy-test-data-generation/01_Junit_Generation_Marrecau_Lefils/Rapport.pdf},
+  2015.
+
+\bibitem{JUnitMeGitHub}
+Valentin Lefils and Quentin Marrecau.
+\newblock Junitme (github).
+\newblock \url{https://github.com/user4me/JunitMe}.
+
+\bibitem{ast}
+Wikipedia.
+\newblock Abstract syntax tree.
+\newblock \url{https://en.wikipedia.org/wiki/Abstract_syntax_tree}.
+
+\bibitem{spoon-gforge}
+INRIA.
+\newblock Spoon - source code analysis and transformation for java.
+\newblock \url{http://spoon.gforge.inria.fr/}.
+
+\bibitem{spoon-hal}
+Martin Monperrus, Renaud Pawlak, Nicolas Petitprez, Carlos Noguera, and Lionel
+  Seinturier.
+\newblock Spoon: A library for implementing analyses and transformations of
+  java source code.
+\newblock \url{https://hal.inria.fr/hal-01078532v2/document}.
+
+\bibitem{spoon-javasource}
+Spoon - javasource.
+\newblock \url{http://java-source.net/open-source/code-analyzers/spoon}.
+
+\bibitem{alloy}
+MIT.
+\newblock Alloy: Official website.
+\newblock \url{http://alloy.mit.edu/alloy/}.
+
+\bibitem{codeModel}
+SUN.
+\newblock Codemodel.
+\newblock \url{https://codemodel.java.net/}.
+
+\end{thebibliography}
