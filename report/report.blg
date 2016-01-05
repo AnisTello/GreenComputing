@@ -1,46 +1,49 @@
-This is BibTeX, Version 0.99d (TeX Live 2015/dev/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: report.aux
 The style file: unsrt.bst
 Database file #1: bibliography.bib
-You've used 8 entries,
+Warning--I didn't find a database entry for "JUnitMeRapport"
+Warning--I didn't find a database entry for "JUnitMeGitHub"
+You've used 5 entries,
             1791 wiz_defined-function locations,
-            479 strings with 4492 characters,
-and the built_in function-call counts, 1092 in all, are:
-= -- 82
-> -- 50
+            470 strings with 4247 characters,
+and the built_in function-call counts, 746 in all, are:
+= -- 52
+> -- 43
 < -- 0
-+ -- 21
-- -- 13
-* -- 16
-:= -- 170
-add.period$ -- 23
-call.type$ -- 8
-change.case$ -- 8
++ -- 17
+- -- 12
+* -- 18
+:= -- 125
+add.period$ -- 15
+call.type$ -- 5
+change.case$ -- 5
 chr.to.int$ -- 0
-cite$ -- 8
-duplicate$ -- 40
-empty$ -- 145
-format.name$ -- 13
-if$ -- 257
+cite$ -- 5
+duplicate$ -- 25
+empty$ -- 91
+format.name$ -- 12
+if$ -- 169
 int.to.chr$ -- 0
-int.to.str$ -- 8
+int.to.str$ -- 5
 missing$ -- 0
-newline$ -- 42
-num.names$ -- 7
-pop$ -- 42
+newline$ -- 28
+num.names$ -- 5
+pop$ -- 25
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 41
+skip$ -- 25
 stack$ -- 0
 substring$ -- 0
-swap$ -- 8
+swap$ -- 5
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 7
-width$ -- 9
-write$ -- 73
+while$ -- 5
+width$ -- 6
+write$ -- 47
+(There were 2 warnings)

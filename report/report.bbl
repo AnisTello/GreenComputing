@@ -1,46 +1,31 @@
 \begin{thebibliography}{1}
 
-\bibitem{JUnitMeRapport}
-Valentin Lefils and Quentin Marrecau.
-\newblock Génération de tests junit avec alloy.
-\newblock
-  \url{http://static.monperrus.net/iagl/2014/rendu3-alloy-test-data-generation/01_Junit_Generation_Marrecau_Lefils/Rapport.pdf},
-  2015.
-
-\bibitem{JUnitMeGitHub}
-Valentin Lefils and Quentin Marrecau.
-\newblock Junitme (github).
-\newblock \url{https://github.com/user4me/JunitMe}.
-
-\bibitem{ast}
+\bibitem{gc}
 Wikipedia.
-\newblock Abstract syntax tree.
-\newblock \url{https://en.wikipedia.org/wiki/Abstract_syntax_tree}.
+\newblock Garbage collection.
+\newblock
+  \url{https://en.wikipedia.org/wiki/Garbage_collection_(computer_science)}.
 
-\bibitem{spoon-gforge}
-INRIA.
-\newblock Spoon - source code analysis and transformation for java.
-\newblock \url{http://spoon.gforge.inria.fr/}.
+\bibitem{jvm}
+Wikipedia.
+\newblock Jvm: Java virtual machine.
+\newblock \url{https://en.wikipedia.org/wiki/Java_virtual_machine}.
 
-\bibitem{spoon-hal}
-Martin Monperrus, Renaud Pawlak, Nicolas Petitprez, Carlos Noguera, and Lionel
-  Seinturier.
-\newblock Spoon: A library for implementing analyses and transformations of
-  java source code.
-\newblock \url{https://hal.inria.fr/hal-01078532v2/document}.
+\bibitem{GCTest}
+herongyang.com.
+\newblock Testing garbage collection behavior.
+\newblock
+  \url{http://www.herongyang.com/JVM/GC-Garbage-Collection-Test-Program.html}.
 
-\bibitem{spoon-javasource}
-Spoon - javasource.
-\newblock \url{http://java-source.net/open-source/code-analyzers/spoon}.
+\bibitem{powerAPI}
+Maxime Colmant, Mascha Kurpicz, Pascal Felber, Loïc Huertas, Romain Rouvoy,
+  and Anita Sobe.
+\newblock Prspoonocess-level power estimation in vm-based systems.
+\newblock \url{https://hal.inria.fr/hal-01130030/file/paper.pdf}.
 
-\bibitem{alloy}
-MIT.
-\newblock Alloy: Official website.
-\newblock \url{http://alloy.mit.edu/alloy/}.
-
-\bibitem{codeModel}
-SUN.
-\newblock Codemodel.
-\newblock \url{https://codemodel.java.net/}.
+\bibitem{powerAPIFR}
+Maxime Colmant, Romain Rouvoy, and Lionel Seinturier.
+\newblock Prspoonocess-level power estimation in vm-based systems.
+\newblock \url{https://hal.inria.fr/hal-01171696/document}.
 
 \end{thebibliography}
