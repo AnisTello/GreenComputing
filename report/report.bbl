@@ -8,8 +8,14 @@ Wikipedia.
 
 \bibitem{jvm}
 Wikipedia.
-\newblock Jvm: Java virtual machine.
+\newblock Java virtual machine.
 \newblock \url{https://en.wikipedia.org/wiki/Java_virtual_machine}.
+
+\bibitem{oracleGC}
+Oracle.
+\newblock Java garbage collection.
+\newblock
+  \url{http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/index.html}.
 
 \bibitem{GCTest}
 herongyang.com.

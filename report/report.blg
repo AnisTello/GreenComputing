@@ -5,45 +5,45 @@ The style file: unsrt.bst
 Database file #1: bibliography.bib
 Warning--I didn't find a database entry for "JUnitMeRapport"
 Warning--I didn't find a database entry for "JUnitMeGitHub"
-You've used 5 entries,
+You've used 6 entries,
             1791 wiz_defined-function locations,
-            470 strings with 4247 characters,
-and the built_in function-call counts, 746 in all, are:
-= -- 52
-> -- 43
+            475 strings with 4371 characters,
+and the built_in function-call counts, 871 in all, are:
+= -- 62
+> -- 47
 < -- 0
-+ -- 17
-- -- 12
++ -- 19
+- -- 13
 * -- 18
-:= -- 125
-add.period$ -- 15
-call.type$ -- 5
-change.case$ -- 5
+:= -- 144
+add.period$ -- 18
+call.type$ -- 6
+change.case$ -- 6
 chr.to.int$ -- 0
-cite$ -- 5
-duplicate$ -- 25
-empty$ -- 91
-format.name$ -- 12
-if$ -- 169
+cite$ -- 6
+duplicate$ -- 30
+empty$ -- 109
+format.name$ -- 13
+if$ -- 199
 int.to.chr$ -- 0
-int.to.str$ -- 5
+int.to.str$ -- 6
 missing$ -- 0
-newline$ -- 28
-num.names$ -- 5
-pop$ -- 25
+newline$ -- 33
+num.names$ -- 6
+pop$ -- 30
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 25
+skip$ -- 30
 stack$ -- 0
 substring$ -- 0
-swap$ -- 5
+swap$ -- 6
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 5
-width$ -- 6
-write$ -- 47
+while$ -- 6
+width$ -- 7
+write$ -- 56
 (There were 2 warnings)
