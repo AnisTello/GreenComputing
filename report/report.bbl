@@ -1,4 +1,16 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{time}
+TIME.
+\newblock The surprisingly large energy footprint of the digital economy.
+\newblock
+  \url{http://science.time.com/2013/08/14/power-drain-the-digital-cloud-is-using-more-energy-than-you-think/}.
+
+\bibitem{ieee}
+IEEE SPECTRUM.
+\newblock The 2015 top ten programming languages.
+\newblock
+  \url{http://spectrum.ieee.org/computing/software/the-2015-top-ten-programming-languages}.
 
 \bibitem{gc}
 Wikipedia.
@@ -33,5 +45,15 @@ Maxime Colmant, Mascha Kurpicz, Pascal Felber, Loïc Huertas, Romain Rouvoy,
 Maxime Colmant, Romain Rouvoy, and Lionel Seinturier.
 \newblock Prspoonocess-level power estimation in vm-based systems.
 \newblock \url{https://hal.inria.fr/hal-01171696/document}.
+
+\bibitem{gnuplotOfficial}
+Gnuplot.
+\newblock Gnuplot official website.
+\newblock \url{http://www.gnuplot.info/}.
+
+\bibitem{gnuplot}
+Wikipedia.
+\newblock Gnuplot.
+\newblock \url{https://en.wikipedia.org/wiki/Gnuplot}.
 
 \end{thebibliography}

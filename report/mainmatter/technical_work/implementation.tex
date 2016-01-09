@@ -1,8 +1,7 @@
 \section{Implementation}
 \label{sec:Implementation}
 Since we know that objects that are not referenced will be removed from memory by the garbage collector.
-And in order to realise this study I have modified an open source application\cite{GCTest} which test garbage collection behavior so the application would generate a larg number of objects and then remove the reference pointing to these objects.\\
+And in order to realise this study I have modified an open source application\cite{GCTest} which test garbage collection behavior so the application now generate a larg number of objects and then remove the reference pointing to these objects.\\
 Each minute a separate thread calls System.gc() to encourage JVM to run the garbage collector.\\
-Using PowerAPI\cite{powerAPI}: ''wattmeter software based on a model of actors, en uses this model to estimate software energetic consumption''.\cite{powerAPIFR}
-I was able to measure the consumption energetic of this application running each time a different mechanism of garbage collection.
- 
+To measure the energy consumption of this Java application I used \textbf{PowerAPI}\cite{powerAPI} : Wattmeter software based on a model of actors. we use it to estimate software energetic consumption.\cite{powerAPIFR}\\
+Each time I run the application I use a different mechanism of garbage collection. So powerAPI tells for each execution the energy consumption of the application using a specific mechanism of garbage collection.

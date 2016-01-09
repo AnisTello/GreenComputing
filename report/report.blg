@@ -3,47 +3,44 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: report.aux
 The style file: unsrt.bst
 Database file #1: bibliography.bib
-Warning--I didn't find a database entry for "JUnitMeRapport"
-Warning--I didn't find a database entry for "JUnitMeGitHub"
-You've used 6 entries,
+You've used 10 entries,
             1791 wiz_defined-function locations,
-            475 strings with 4371 characters,
-and the built_in function-call counts, 871 in all, are:
-= -- 62
-> -- 47
+            486 strings with 4778 characters,
+and the built_in function-call counts, 1373 in all, are:
+= -- 102
+> -- 63
 < -- 0
-+ -- 19
-- -- 13
++ -- 27
+- -- 17
 * -- 18
-:= -- 144
-add.period$ -- 18
-call.type$ -- 6
-change.case$ -- 6
+:= -- 222
+add.period$ -- 30
+call.type$ -- 10
+change.case$ -- 10
 chr.to.int$ -- 0
-cite$ -- 6
-duplicate$ -- 30
-empty$ -- 109
-format.name$ -- 13
-if$ -- 199
+cite$ -- 10
+duplicate$ -- 50
+empty$ -- 181
+format.name$ -- 17
+if$ -- 319
 int.to.chr$ -- 0
-int.to.str$ -- 6
+int.to.str$ -- 10
 missing$ -- 0
-newline$ -- 33
-num.names$ -- 6
-pop$ -- 30
+newline$ -- 53
+num.names$ -- 10
+pop$ -- 50
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 30
+skip$ -- 49
 stack$ -- 0
 substring$ -- 0
-swap$ -- 6
+swap$ -- 10
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 6
-width$ -- 7
-write$ -- 56
-(There were 2 warnings)
+while$ -- 10
+width$ -- 12
+write$ -- 92

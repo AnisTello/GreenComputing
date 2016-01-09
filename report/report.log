@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.12.12)  6 JAN 2016 19:38
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.12.12)  9 JAN 2016 18:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1599,37 +1599,84 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 
 (./frontmatter/introduction.tex [3]
+Underfull \hbox (badness 10000) in paragraph at lines 5--7
 
-LaTeX Warning: Citation `JUnitMeRapport' on page 4 undefined on input line 12.
-
-
-LaTeX Warning: Citation `JUnitMeGitHub' on page 4 undefined on input line 12.
+ []
 
 ) (./mainmatter/technical_work.tex [4
 
 ]
 Chapter 1.
 (./mainmatter/technical_work/goal.tex) (./mainmatter/technical_work/GC.tex
-Overfull \hbox (22.36179pt too wide) in paragraph at lines 3--1
-\OT1/cmr/m/n/12 The goal of this study is to es-ti-mate the en-er-getic con-sum
-p-tion of dif-fer-ent Garbage collection(GC)[[]]
- []
-
 [5
 
 ] [6] [7]) (./mainmatter/technical_work/implementation.tex))
 (./mainmatter/evaluation.tex [8]
 Chapter 2.
-(./mainmatter/evaluation/performance.tex)
-(./mainmatter/evaluation/validation.tex)
-(./mainmatter/evaluation/limitations.tex)) (./backmatter/conclusion.tex
+(./mainmatter/evaluation/validation.tex
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
+<images/SerialGC.png, id=177, 481.8pt x 361.35pt>
+File: images/SerialGC.png Graphic file (type png)
+ <use images/SerialGC.png>
+Package pdftex.def Info: images/SerialGC.png used on input line 13.
+(pdftex.def)             Requested size: 341.43306pt x 256.0806pt.
+
 [9
 
-]) (./backmatter/references.tex (./report.bbl [10
+] <images/ParallelGC.png, id=184, 481.8pt x 361.35pt>
+File: images/ParallelGC.png Graphic file (type png)
 
-]))
+<use images/ParallelGC.png>
+Package pdftex.def Info: images/ParallelGC.png used on input line 19.
+(pdftex.def)             Requested size: 341.43306pt x 256.0806pt.
+
+<images/ParallelOldGC.png, id=185, 481.8pt x 361.35pt>
+File: images/ParallelOldGC.png Graphic file (type png)
+
+<use images/ParallelOldGC.png>
+Package pdftex.def Info: images/ParallelOldGC.png used on input line 25.
+(pdftex.def)             Requested size: 341.43306pt x 256.0806pt.
+ [10 <./images/SerialGC.png> <./images/ParallelGC.png>] <images/ConcMarkSweepGC
+.png, id=194, 481.8pt x 361.35pt>
+File: images/ConcMarkSweepGC.png Graphic file (type png)
+
+<use images/ConcMarkSweepGC.png>
+Package pdftex.def Info: images/ConcMarkSweepGC.png used on input line 31.
+(pdftex.def)             Requested size: 341.43306pt x 256.0806pt.
+ <images/G1GC.png, id=195, 481.8pt x 361.35pt>
+File: images/G1GC.png Graphic file (type png)
+
+<use images/G1GC.png>
+Package pdftex.def Info: images/G1GC.png used on input line 37.
+(pdftex.def)             Requested size: 341.43306pt x 256.0806pt.
+ [11 <./images/ParallelOldGC.png> <./images/ConcMarkSweepGC.png>]) (./mainmatte
+r/evaluation/limitations.tex))
+(./backmatter/conclusion.tex [12 <./images/G1GC.png>])
+(./backmatter/references.tex (./report.bbl [13
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 4--8
+[]\OT1/cmr/m/n/12 TIME.  The sur-pris-ingly large en-ergy foot-print of the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--8
+\OT1/cmr/m/n/12 dig-i-tal econ-omy.  []$\OT1/cmtt/m/n/12 http : / / science . t
+ime . com / 2013 / 08 / 14 /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--20
+[]\OT1/cmr/m/n/12 Wikipedia.  Garbage col-lec-tion.  []$\OT1/cmtt/m/n/12 https 
+: / / en . wikipedia . org / wiki / Garbage _
+ []
+
+))
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 22.
- [11
+ [14
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 22.
@@ -1637,18 +1684,14 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 22.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 22.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 22.
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 14B60BFCC9D320C7155C57E22D0F51EA;912.
-
-
-LaTeX Warning: There were undefined references.
-
+(rerunfilecheck)             Checksum: 40FB036BEA37C7F3171CC1211B0C1E7D;915.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 22.
  ) 
 Here is how much of TeX's memory you used:
- 32333 strings out of 494985
- 697892 string characters out of 6180355
- 889706 words of memory out of 5000000
- 34858 multiletter control sequences out of 15000+600000
+ 32380 strings out of 494985
+ 698712 string characters out of 6180355
+ 890706 words of memory out of 5000000
+ 34886 multiletter control sequences out of 15000+600000
  11494 words of font info for 40 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  70i,14n,81p,10476b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1659,10 +1702,10 @@ live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on report.pdf (11 pages, 179458 bytes).
+Output written on report.pdf (14 pages, 205727 bytes).
 PDF statistics:
- 231 PDF objects out of 1000 (max. 8388607)
- 190 compressed objects within 2 object streams
- 41 named destinations out of 1000 (max. 500000)
- 244 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 276 PDF objects out of 1000 (max. 8388607)
+ 221 compressed objects within 3 object streams
+ 53 named destinations out of 1000 (max. 500000)
+ 269 words of extra memory for PDF output out of 10000 (max. 10000000)
 
